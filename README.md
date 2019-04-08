@@ -53,8 +53,8 @@ app.on('window-all-closed', function () {
 })
 ```
 app.on('activate', function () {
-  # On macOS it's common to re-create a window in the app when the
-  # dock icon is clicked and there are no other windows open.
+  ## On macOS it's common to re-create a window in the app when the
+  ## dock icon is clicked and there are no other windows open.
   if (mainWindow === null) createWindow()
 })
 ```
@@ -111,10 +111,6 @@ This is a index.html file
 ```
 ## Our Findings
 We found Electron to be familiar to us because it uses node.js and the package framework made it easy to set up a project. We would recommend it for those who want to build desktop applications. We found the benefit of only working on one browser and one code base to be helpful. We would consider using it in future projects to build desk top applications. Electron will increase one's knowledge of knowing another framework.
-
-
-```
-
 
 ```
 ## Sources
