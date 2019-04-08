@@ -8,12 +8,12 @@ Electron is an open-source framework developed and maintained by GitHub. Electro
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0uennhqsc6wLg3Jkt7u-5WcV-eD4vZe1QoxiN4pY96lhSdXFn)
 
 <!-- Code Snippet to write Hello world in Electron -->
-# This is main.js file
-# Modules to control application life and create native browser window
+ This is main.js file
+## Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
 
-# Keep a global reference of the window object, if you don't, the window will
-# be closed automatically when the JavaScript object is garbage collected.
+ Keep a global reference of the window object, if you don't, the window will
+## be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 
 function createWindow () {
@@ -29,10 +29,10 @@ function createWindow () {
   # and load the index.html of the app.
   mainWindow.loadFile('index.html')
 
-  # Open the DevTools.
+  ## Open the DevTools.
   # mainWindow.webContents.openDevTools()
 
-  # Emitted when the window is closed.
+  ## Emitted when the window is closed.
   mainWindow.on('closed', function () {
      Dereference the window object, usually you would store windows
    #  in an array if your app supports multi windows, this is the time
@@ -41,7 +41,7 @@ function createWindow () {
   })
 }
 
-# This method will be called when Electron has finished
+ This method will be called when Electron has finished
 # initialization and is ready to create browser windows.
 # Some APIs can only be used after this event occurs.
 app.on('ready', createWindow)
@@ -100,7 +100,7 @@ app.on('activate', function () {
     <!-- We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>. -->
-    <h1>We are week 12!! I can't belive it.</h1>
+    <h1>We are on week 12!! I can't belive it.</h1>
 
     <script>
       // You can also require other files to run in this process
