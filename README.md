@@ -109,5 +109,5 @@ This is a index.html file
 </html>
 ```
 ## Sources
-Video explaining Electron thoroughly from their site
+Video explaining Electron thoroughly from their site: 
 [Electron](https://www.youtube.com/watch?v=8YP_nOCO-4Q&feature=youtu.be)
