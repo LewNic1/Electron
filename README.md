@@ -51,18 +51,17 @@ app.on('window-all-closed', function () {
   # to stay active until the user quits explicitly with Cmd + Q
   if (process.platform !== 'darwin') app.quit()
 })
-
+```
 app.on('activate', function () {
   # On macOS it's common to re-create a window in the app when the
   # dock icon is clicked and there are no other windows open.
   if (mainWindow === null) createWindow()
 })
-
+```
 # In this file you can include the rest of your app's specific main process
 # code. You can also put them in separate files and require them here.
 
-
-# This is a package.json file 
+``` This is a package.json file 
 {
   "name": "electron-quick-start",
   "version": "1.0.0",
@@ -85,9 +84,10 @@ app.on('activate', function () {
     "electron": "^4.1.3"
   }
 }
+```
 
-# This is a index.html file
-<!DOCTYPE html>
+This is a index.html file
+```<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -107,7 +107,7 @@ app.on('activate', function () {
     </script>
   </body>
 </html>
-
+```
 ## Sources
 Video explaining Electron thoroughly from their site
 [Electron](https://www.youtube.com/watch?v=8YP_nOCO-4Q&feature=youtu.be)
