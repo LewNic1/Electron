@@ -112,7 +112,6 @@ This is a index.html file
 ## Our Findings
 We found Electron to be familiar to us because it uses node.js and the package framework made it easy to set up a project. We would recommend it for those who want to build desktop applications. We found the benefit of only working on one browser and one code base to be helpful. We would consider using it in future projects to build desk top applications. Electron will increase one's knowledge of knowing another framework.
 
-```
 ## Sources
 Video explaining Electron thoroughly from their site
 [Electron](https://www.youtube.com/watch?v=8YP_nOCO-4Q&feature=youtu.be)
