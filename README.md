@@ -8,7 +8,7 @@ Electron is an open-source framework developed and maintained by GitHub. Electro
 
 <!-- Code Snippet to write Hello world in Electron -->
  This is main.js file
- ![]()
+ ![](https://github.com/LewNic1/Electron/blob/master/Screen%20Shot%202019-04-08%20at%2010.05.20%20AM.png)
  
  Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
